@@ -16,4 +16,4 @@ export const routes: RouteObject[] = [
   },
 ];
 
-export const Router = () =>useRoutes(routes);
+export const Router = () => useRoutes(routes);
