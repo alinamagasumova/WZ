@@ -5,7 +5,7 @@ import { EventsCard } from '../../components/EventsCard';
 
 export function Home() {
   return (
-    <div>    
+    <div>
       <Header/>
       <Events />
       <EventsCard />
