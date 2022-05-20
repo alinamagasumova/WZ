@@ -1,12 +1,12 @@
 import React from 'react';
-import { Header } from '../../components/Header';
+import Header from '../../Header';
 import { Events } from '../../components/Events';
 import { EventsCard } from '../../components/EventsCard';
 
 export function Home() {
   return (
-    <div>    
-      <Header />
+    <div>
+      <Header/>
       <Events />
       <EventsCard />
     </div>
