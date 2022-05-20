@@ -3,6 +3,7 @@ import React from 'react';
 import coins from './coins.png';
 // @ts-ignore
 import star from './star.png';
+import './EventsCrad.scss';
 
 export function EventsCard() {
   const txt = 'Веселые старты';

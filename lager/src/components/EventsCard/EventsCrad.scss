@@ -1,0 +1,54 @@
+
+.eventsCard {
+    height: 104px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.35);
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 16px 28px 0 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+
+    &-txt {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      color: #FF9900;
+    }
+
+    &_time {
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__content {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+  }
+
+  &__prize {
+    display: flex;
+    gap: 15px;
+    &-coins {
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+
+    &-exp {
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+  }
+}
