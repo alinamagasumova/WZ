@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Events.scss';
 
 export function Events() {
