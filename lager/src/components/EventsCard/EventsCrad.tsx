@@ -1,6 +1,8 @@
 import React from 'react';
 // @ts-ignore
 import coins from './coins.png';
+// @ts-ignore
+import star from './star.png';
 
 export function EventsCard() {
   const txt = 'Веселые старты';
@@ -32,8 +34,7 @@ export function EventsCard() {
           {coinsAmount} монет
         </div>
         <div className="eventsCard__prize-exp">
-          {/*Нужна иконка звездочки*/}
-          <img width="13px" height="13px" src={coins} alt=""/>
+          <img width="13px" height="13px" src={star} alt=""/>
           {expAmount} опыта
         </div>
       </div>
