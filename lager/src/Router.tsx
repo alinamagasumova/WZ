@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Home } from './pages/Home';
+
 import {
   useRoutes,
   RouteObject,
@@ -12,7 +14,7 @@ export enum Routes {
 export const routes: RouteObject[] = [
   {
     path: Routes.HOME,
-    element: <div />
+    element: <Home />
   },
 ];
 

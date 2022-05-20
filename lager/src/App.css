@@ -1,10 +1,11 @@
-@media (max-width: 600px) and (min-width: 200px){
-  .App {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../public/img/back.jpg");
-    background-position: center;
-  }
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/img/back.jpg");
+  background-position: center;
+}
+
+@media (max-width: 600px) and (min-width: 200px) {
   .wrapper {
     width: 100%;
     /*padding: ;*/
