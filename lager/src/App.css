@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../public/img/back.jpg");
+  }
+  .wrapper {
+    width: 360px;
+  }
+}
